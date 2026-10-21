@@ -8,7 +8,7 @@ A pattern belongs here once the same shape has shown up in more than one real pr
 
 | Pattern | One line | Status |
 |---|---|---|
-| [Temporal Entity Ledger](patterns/temporal-entity-ledger/) | Turn a time-ordered stream of messy observations into a living graph of entity and narrative notes, and stay correct when observations arrive late. | Draft |
+| [Temporal Entity Ledger](patterns/temporal-entity-ledger/) | Turn a time-ordered stream of messy observations into a living graph of entity and narrative notes, and stay correct when observations arrive late. | Draft (decisions settled) |
 
 ## Anatomy of a pattern folder
 
@@ -17,6 +17,7 @@ patterns/<name>/
   README.md                    # the pattern: intent, structure, process, trade-offs, open decisions
   playbook.md                  # how an agent applies it to a new domain, step by step
   reference-implementation.md  # a real project that uses it, and where it falls short of the pattern
+  domain-profiles.md           # optional: starting configurations for the domains it targets
 ```
 
 `README.md` is for understanding the pattern. `playbook.md` is what you hand to an agent that has to build or run an instance of it.
